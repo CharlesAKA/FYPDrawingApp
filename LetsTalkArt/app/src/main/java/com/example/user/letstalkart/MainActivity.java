@@ -176,7 +176,7 @@ public class MainActivity extends Activity implements OnClickListener{
             saveDialog.setTitle("Save drawing");
             saveDialog.setMessage("Save drawing to device Gallery?");
             saveDialog.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
-                private FileOutputStream fOut;
+                //private FileOutputStream fOut;
 
                 public void onClick(DialogInterface dialog, int which) {
                     //save drawing
